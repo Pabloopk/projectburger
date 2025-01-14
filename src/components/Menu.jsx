@@ -40,7 +40,7 @@ const Menu = () => {
       <div className="min-h-screen container flex flex-col justify-center py-4">
         {/* heading  */}
         <h1 className=" font-semibold text-4xl text-center text-secondary mt-5">
-          Menu Para Pedidos
+          Hamburguer
         </h1>
 
         {/* cards section */}
