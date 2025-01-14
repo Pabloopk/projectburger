@@ -107,11 +107,9 @@ const Navbar = () => {
           >
             Avaliações
           </Link>
-        </nav>
-
-        {/* Pedido e modo escuro */}
-        <div className="hidden lg:flex items-center gap-4">
-          <DarkMode />
+          {/* Pedido e modo escuro */}
+        <div className="flex items-center gap-4">
+          <DarkMode onClick={() => setMenuOpen(false)} />
           <button
             className="bg-primary py-2 px-4 text-white font-semibold rounded-md hover:scale-105 transition duration-300 ease-in-out"
             onClick={() =>
@@ -122,9 +120,13 @@ const Navbar = () => {
               )
             }
           >
-            Fazer Pedido
-          </button>
+    Fazer Pedido
+  </button>
         </div>
+        </nav>
+
+        
+
       </div>
     </header>
   );
