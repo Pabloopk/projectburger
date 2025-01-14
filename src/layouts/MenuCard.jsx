@@ -9,7 +9,7 @@ const MenuCard = ({ id, title, price, text }) => {
       key={id}
     >
        <img
-        className=" absolute w-40 -right-4 sm:-right-16 bottom-7 mr-2 group-hover:-translate-y-8 transition duration-300 ease-in-out"
+        className=" absolute w-40 -right-2 sm:-right-16 bottom-7 mr-2 group-hover:-translate-y-8 transition duration-300 ease-in-out"
         src={img}
         alt="img"
       />
