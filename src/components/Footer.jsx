@@ -57,21 +57,40 @@ const Footer = () => {
           <h1 className=" font-semibold text-xl pb-4 pt-5 md:pt-0">
             Contato
           </h1>
-          <nav className=" flex flex-col gap-2 font-medium">
-            <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 " target={"_blank"} spy={true} smooth={true} duration={500}>
+          <nav className="flex flex-col gap-2 font-medium">
+            <a
+              href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               dev.pablonunes@gmail.com
             </a>
-            <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0" target={"_blank"} spy={true} smooth={true} duration={500}>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               61 992295015
             </a>
           </nav>
+
         </div>
       </div>
       <div>
-        <p className=" text-center py-4">
-          @copyright desenvolvido por <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 " target={"_blank"} className=" text-primary font-semibold"> Pablo Nunes</a> | Todos os direitos reservados
-        </p>
-      </div>
+          <p className="text-center py-4">
+            &copy; Desenvolvido por{" "}
+            <a
+              href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary font-semibold"
+            >
+              Pablo Nunes
+            </a>{" "}
+            | Todos os direitos reservados
+          </p>
+        </div>
+
     </footer>
   );
 };

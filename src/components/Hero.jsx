@@ -1,4 +1,4 @@
-import React from "react";
+
 import img from "../assets/img/hero.png";
 
 const Hero = () => {
@@ -16,10 +16,18 @@ const Hero = () => {
           <p>
             A criação do site Burger tem como objetivo servir como um portfólio de exemplos e ideias para clientes, apresentando projetos inspiradores e personalizados que destacam inovação e funcionalidade no desenvolvimento de interfaces.
           </p>
-          <button className=" bg-primary py-2 px-4 text-white font-semibold rounded-md hover:scale-105 transition duration-300 ease-in-out">
-            <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 " target={"_blank"} >Fazer Pedido</a>
-          
-          </button>
+          <button
+              className="bg-primary py-2 px-4 text-white font-semibold rounded-md hover:scale-105 transition duration-300 ease-in-out"
+              onClick={() =>
+                window.open(
+                  "https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0",
+                  "_blank",
+                  "noopener noreferrer"
+                )
+              }
+            >
+              Fazer Pedido
+            </button>
         </div>
 
         {/* img section */}

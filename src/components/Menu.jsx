@@ -1,4 +1,4 @@
-import React from "react";
+
 import MenuCard from "../layouts/MenuCard";
 
 const Menu = () => {
