@@ -36,7 +36,7 @@ const Menu = () => {
   ];
 
   return (
-    <div className="bg-tertiary">
+    <div className="bg-tertiary dark:bg-black">
       <div className="min-h-screen container flex flex-col justify-center py-4">
         {/* heading  */}
         <h1 className=" font-semibold text-4xl text-center text-secondary mt-5">
