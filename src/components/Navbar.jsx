@@ -75,7 +75,7 @@ const Navbar = () => {
             className="cursor-pointer hover:text-primary transition duration-300 ease-in-out"
             onClick={() => setMenuOpen(false)}
           >
-            Cardápio
+            Hamburguers
           </Link>
           <Link
             to="deals"
@@ -85,7 +85,7 @@ const Navbar = () => {
             className="cursor-pointer hover:text-primary transition duration-300 ease-in-out"
             onClick={() => setMenuOpen(false)}
           >
-            Exclusivo
+            Combos
           </Link>
           <Link
             to="special"
@@ -113,7 +113,7 @@ const Navbar = () => {
         <div className="hidden lg:flex items-center gap-4">
           <DarkMode />
           <button
-            className="bg-secondary py-2 px-4 text-white font-semibold rounded-md hover:scale-105 transition duration-300 ease-in-out"
+            className="bg-primary py-2 px-4 text-white font-semibold rounded-md hover:scale-105 transition duration-300 ease-in-out"
             onClick={() =>
               window.open(
                 "https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0",

@@ -78,7 +78,10 @@ const Footer = () => {
       </div>
       <div>
           <p className="text-center py-4">
-            &copy; Desenvolvido por{" "}
+            {new Date().getFullYear()} &copy; {" "}
+            
+            Todos os direitos reservados | Desenvolvido por {" "} 
+
             <a
               href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0"
               target="_blank"
@@ -87,7 +90,6 @@ const Footer = () => {
             >
               Pablo Nunes
             </a>{" "}
-            | Todos os direitos reservados
           </p>
         </div>
 
