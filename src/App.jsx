@@ -13,7 +13,9 @@ const App = () => {
     <>
       <Navbar />
 
-      <Hero />
+      <div className="home">
+        <Hero />
+      </div>
 
       <div className="menu">
         <Menu />
@@ -22,16 +24,11 @@ const App = () => {
       <div id="deals">
         <Deals />
       </div>
-
+      <SpecialMenu />
       <div id="special">
-        <SpecialMenu />
-      </div>
       <About/>
-
-      <div id="review">
-        <Review />
       </div>
-
+      <Review />
       <Footer />
     </>
   );

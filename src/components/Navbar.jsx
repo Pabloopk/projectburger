@@ -15,7 +15,7 @@ const Navbar = () => {
         {/* Logo */}
         <div>
           <Link to="home" spy={true} smooth={true} duration={500}>
-            <h1 className="font-semibold text-2xl text-secondary">
+            <h1 className=" cursor-pointer font-semibold text-2xl text-secondary">
               DEVs BURGER
             </h1>
           </Link>
@@ -95,18 +95,9 @@ const Navbar = () => {
             className="cursor-pointer hover:text-primary transition duration-300 ease-in-out"
             onClick={() => setMenuOpen(false)}
           >
-            Especiais
+            Sobre
           </Link>
-          <Link
-            to="review"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className="cursor-pointer hover:text-primary transition duration-300 ease-in-out"
-            onClick={() => setMenuOpen(false)}
-          >
-            Avaliações
-          </Link>
+         
           {/* Pedido e modo escuro */}
         <div className="flex items-center gap-4">
           <DarkMode onClick={() => setMenuOpen(false)} />
