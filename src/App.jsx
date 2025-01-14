@@ -6,6 +6,7 @@ import Deals from "./components/Deals";
 import Review from "./components/Review";
 import SpecialMenu from "./components/SpecialMenu";
 import Footer from "./components/Footer";
+import About from "./components/About";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <div id="special">
         <SpecialMenu />
       </div>
+      <About/>
 
       <div id="review">
         <Review />
