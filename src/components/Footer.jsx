@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-scroll";
@@ -7,7 +8,7 @@ const Footer = () => {
     <footer className=" bg-tertiary text-secondary rounded-t-3xl pt-8 md:pt-0">
       <div className="flex flex-col md:flex-row justify-between p-8 md:px-32 px-5">
         <div className=" w-full md:w-1/4">
-          <h1 className=" font-semibold text-2xl pb-4">DEV's BURGER</h1>
+          <h1 className=" font-semibold text-2xl pb-4">DEVs BURGER</h1>
           <div className=" flex gap-5">
             <FaInstagram size={35} />
             <FaFacebook size={35} />
@@ -57,10 +58,10 @@ const Footer = () => {
             Contato
           </h1>
           <nav className=" flex flex-col gap-2 font-medium">
-            <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 " target={"_blank"}spy={true} smooth={true} duration={500}>
+            <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 " target={"_blank"} spy={true} smooth={true} duration={500}>
               dev.pablonunes@gmail.com
             </a>
-            <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0 " target={"_blank"} spy={true} smooth={true} duration={500}>
+            <a href="https://api.whatsapp.com/send/?phone=5561992295015&text=Quero+iniciar+um+projeto%21&type=phone_number&app_absent=0" target={"_blank"} spy={true} smooth={true} duration={500}>
               61 992295015
             </a>
           </nav>
