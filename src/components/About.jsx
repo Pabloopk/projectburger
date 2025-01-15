@@ -19,7 +19,7 @@ const About = () => {
               Sobre 
             </h1>
             <h3 className=" text-3xl md:text-4xl font-semibold text-secondary">
-              Nossa hstoria
+              Nossa história
             </h3>
             <p className=" text-sm md:text-base text-gray-400">
               Com foco no melhor hambúrguer, o site oferece uma experiência visual e informativa que desperta o apetite e encanta os clientes.
