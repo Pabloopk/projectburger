@@ -1,4 +1,4 @@
-# ProjectBurger
+# DevsBurger
 
 DevsBurger é um projeto desenvolvido com React e Vite, focado em criar uma base para aplicações frontend modernas. Ele inclui configurações otimizadas para Hot Module Replacement (HMR) e utiliza ESLint para manter padrões de código consistentes.
 
